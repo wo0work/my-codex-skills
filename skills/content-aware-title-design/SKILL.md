@@ -1,6 +1,6 @@
 ---
 name: content-aware-title-design
-description: Design content-aware Chinese display typography and stylized video titles. Use when the user asks for 花字、大标题、标题字效、中文标题设计、封面标题、正片强调字、章节标题、风格化文字，especially when the typography should visually encode the topic itself (country, industry, history, technology, finance, geography, emotion, etc.). Produces semantic analysis, 3 distinct design directions, typography/shape/material/layout/color guidance, and optional AI-image prompts, SVG construction specs, Photoshop layer plans, and After Effects animation guidance. Preserve exact user-provided text unless the user explicitly approves rewriting.
+description: Design content-aware Chinese display typography and stylized video titles from a title plus an optional brief or script. Use when the user asks for 花字、大标题、标题字效、中文标题设计、封面标题、正片强调字、章节标题、风格化文字，especially when the typography should visually encode the topic itself. First collect or summarize the related description/script, then turn its key semantics into 3 distinct design directions and optional production-ready image, SVG, Photoshop, or After Effects guidance. Preserve exact user-provided title text unless the user explicitly approves rewriting.
 ---
 
 # Content-Aware Chinese Title Design
@@ -71,11 +71,59 @@ description: Design content-aware Chinese display typography and stylized video 
 
 ---
 
+# 必须先收集上下文
+
+每次收到“设计大字标题 / 花字 / 章节标题”等请求，在提出视觉方案或生成图片之前，先检查用户是否已经提供相关描述、口播稿、文章片段或完整文字稿。
+
+## 没有提供文稿时
+
+只问一次简短问题：
+
+> 有相关的描述或文字稿吗？发给我后，我会先提炼关键内容，再据此设计标题；如果没有，也可以直接告诉我“没有”。
+
+等待用户回答后再进入设计。不要同时预先给方案或出图。
+
+## 已经提供文稿时
+
+不要重复询问。先阅读并提炼，再直接继续设计，不需要额外要求用户确认摘要。
+
+## 用户明确表示没有文稿时
+
+根据标题本身及用户已给出的用途、风格和场景继续，不再追问同一问题。
+
+---
+
+# 文稿提炼
+
+从用户提供的描述或文字稿中提取真正会改变视觉决策的信息：
+
+- 核心主题：这段内容主要在讲什么
+- 核心观点：作者最想让观众记住什么
+- 叙事对象：国家、人物、行业、事件、产品或概念
+- 场景信息：地域、时代、行业和具体环境
+- 动作与关系：建设、流动、冲突、增长、衰退、连接等
+- 情绪语气：厚重、紧张、理性、轻松、讽刺、热血等
+- 具体视觉名词：地点、物体、材料、工具、路线、自然元素
+- 限制与风险：不应误用或不应出现的文化符号、图标和俗套表达
+
+把结果压缩为：
+
+1. 一句话内容摘要
+2. 3–6 个语义关键词
+3. 1 个主视觉母题
+4. 最多 2 个辅助元素
+5. 推荐材质与情绪
+6. 建议避免
+
+明确区分文稿中直接出现的信息与设计推断；不得把推断写成事实。标题文字仍严格使用用户指定原文，不能用文稿摘要擅自改写标题。
+
+---
+
 # 工作流
 
 ## Step 1｜语义拆解
 
-分析：
+优先依据用户的描述或文字稿分析；没有文稿时才只依据标题和场景分析：
 - 主体对象
 - 地域 / 文化
 - 行业 / 系统
