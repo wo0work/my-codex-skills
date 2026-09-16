@@ -4,34 +4,41 @@
 
 ## Skills
 
-### content-aware-title-design
-
+### 1) content-aware-title-design
 根据标题内容本身设计中文风格化大标题 / 花字。
 
-它会把地域、行业、历史、科技、财经、地理、情绪等语义元素融入：
-
-- 字形
-- 笔画
-- 材质
-- 结构
-- 装饰
-- 排版
-- AE 动效
-
 安装链接：
-
 ```text
 https://github.com/wo0work/my-codex-skills/tree/main/skills/content-aware-title-design
 ```
 
-可以直接对 Codex 说：
+### 2) map-animation
+用于视频包装和信息表达的地图 Skill，可做：
+- 区域高亮
+- 国家 / 岛屿 / 海域色块
+- 路线 / 航线 / 贸易流向
+- 产业地图 / 资源地图
+- 透明背景地图资产
+- AE 可拆层地图动画方案
+
+安装链接：
+```text
+https://github.com/wo0work/my-codex-skills/tree/main/skills/map-animation
+```
+
+## 示例用法
 
 ```text
 安装并使用这个 Skill：
-https://github.com/wo0work/my-codex-skills/tree/main/skills/content-aware-title-design
+https://github.com/wo0work/my-codex-skills/tree/main/skills/map-animation
 ```
 
-使用示例：
+```text
+使用 map-animation，
+把印尼地图中的爪哇岛用高亮色块标出来，
+并额外输出一个单独的爪哇岛透明背景版本，
+用于 16:9 视频包装。
+```
 
 ```text
 使用 content-aware-title-design，
@@ -40,13 +47,18 @@ https://github.com/wo0work/my-codex-skills/tree/main/skills/content-aware-title-
 要求：中文原文不改变、不要小字、透明背景可用、适合 AE 动画。
 ```
 
-## 仓库建议结构
+## 建议仓库结构
 
 ```text
 my-codex-skills/
 ├─ README.md
 └─ skills/
-   └─ content-aware-title-design/
+   ├─ content-aware-title-design/
+   │  ├─ SKILL.md
+   │  └─ references/
+   │     ├─ style-library.md
+   │     └─ examples.md
+   └─ map-animation/
       ├─ SKILL.md
       └─ references/
          ├─ style-library.md
